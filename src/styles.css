@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.navMenu > li {
+  display: inline;
+  padding: 0 0.3em;
+}
+
+.navMenu > li button {
+  padding: 0.4em;
+  color: coral;
+  font-weight: 500;
+  border-style: none;
+}
+
+.navMenu > li button:hover {
+  color: white;
+  background-color: coral;
+  border-radius: 0.3em;
+}
+
+.food {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 60%;
+  height: 25%;
+}
+
+.food h3 {
+  height: 25%;
+  font-size: 16px;
+  margin-top: 0;
+  margin-left: 1em;
+}
+
+.food .price {
+  flex: 0 0 5%;
+  justify-content: flex-end;
+}
+
+.imgFood {
+  height: 10em;
+  width: 40%;
+}
